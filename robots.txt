@@ -1,0 +1,2 @@
+﻿User-agent: *
+Sitemap: http://abt-russia-official.itsinsta.site//sitemap.xml
