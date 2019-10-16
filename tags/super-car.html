@@ -28,6 +28,9 @@
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
 
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -59,249 +62,255 @@
 			</div>
 		</header>	
 		<div class="main">
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="abt">
-								<a href="./abt.html">
-									<div class="stories__slide-pic"><img src="../img/og/abt.png" alt="abt" /></div>
-									<div class="stories__slide-txt">abt</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="abt">
+										<a href="./abt.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/abt.png);"></div>
+											<div class="stories__slide-txt">abt</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="abt sport sline">
+										<a href="./abt-sport-sline.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/abt-sport-sline.png);"></div>
+											<div class="stories__slide-txt">abt sport sline</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="тюнинг">
+										<a href="./tyuning.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/tyuning.png);"></div>
+											<div class="stories__slide-txt">тюнинг</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="audi">
+										<a href="./audi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/audi.png);"></div>
+											<div class="stories__slide-txt">audi</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="авто">
+										<a href="./avto.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/avto.png);"></div>
+											<div class="stories__slide-txt">авто</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="super car">
+										<a href="./super-car.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/super-car.png);"></div>
+											<div class="stories__slide-txt">super car</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="id tuning">
+										<a href="./id-tuning.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/id-tuning.png);"></div>
+											<div class="stories__slide-txt">id tuning</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="ауди">
+										<a href="./audi.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/audi.png);"></div>
+											<div class="stories__slide-txt">ауди</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="power">
+										<a href="./power.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/power.png);"></div>
+											<div class="stories__slide-txt">power</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="daniel abt">
+										<a href="./daniel-abt.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/daniel-abt.png);"></div>
+											<div class="stories__slide-txt">daniel abt</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="way">
+										<a href="./way.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/way.png);"></div>
+											<div class="stories__slide-txt">way</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="race">
+										<a href="./race.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/race.png);"></div>
+											<div class="stories__slide-txt">race</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="speed">
+										<a href="./speed.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/speed.png);"></div>
+											<div class="stories__slide-txt">speed</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="avto">
+										<a href="./avto.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/avto.png);"></div>
+											<div class="stories__slide-txt">avto</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="amazing">
+										<a href="./amazing.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/amazing.png);"></div>
+											<div class="stories__slide-txt">amazing</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="машина">
+										<a href="./mashina.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/mashina.png);"></div>
+											<div class="stories__slide-txt">машина</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="all">
+										<a href="./all.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/all.png);"></div>
+											<div class="stories__slide-txt">all</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="the">
+										<a href="./the.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/the.png);"></div>
+											<div class="stories__slide-txt">the</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="abt russia">
+										<a href="./abt-russia.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/abt-russia.png);"></div>
+											<div class="stories__slide-txt">abt russia</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="sale">
+										<a href="./sale.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sale.png);"></div>
+											<div class="stories__slide-txt">sale</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="sheels">
+										<a href="./sheels.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/sheels.png);"></div>
+											<div class="stories__slide-txt">sheels</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="tuning">
+										<a href="./tuning.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/tuning.png);"></div>
+											<div class="stories__slide-txt">tuning</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="moscow">
+										<a href="./moscow.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/moscow.png);"></div>
+											<div class="stories__slide-txt">moscow</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="russia">
+										<a href="./russia.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/russia.png);"></div>
+											<div class="stories__slide-txt">russia</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="спб">
+										<a href="./spb.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/spb.png);"></div>
+											<div class="stories__slide-txt">спб</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="cars">
+										<a href="./cars.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/cars.png);"></div>
+											<div class="stories__slide-txt">cars</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="drive2">
+										<a href="./drive2.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/drive2.png);"></div>
+											<div class="stories__slide-txt">drive2</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="smotra">
+										<a href="./smotra.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/smotra.png);"></div>
+											<div class="stories__slide-txt">smotra</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="смотра">
+										<a href="./smotra.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/smotra.png);"></div>
+											<div class="stories__slide-txt">смотра</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="драйв2">
+										<a href="./drayv2.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/drayv2.png);"></div>
+											<div class="stories__slide-txt">драйв2</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="abt sport sline">
-								<a href="./abt-sport-sline.html">
-									<div class="stories__slide-pic"><img src="../img/og/abt-sport-sline.png" alt="abt sport sline" /></div>
-									<div class="stories__slide-txt">abt sport sline</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="тюнинг">
-								<a href="./tyuning.html">
-									<div class="stories__slide-pic"><img src="../img/og/tyuning.png" alt="тюнинг" /></div>
-									<div class="stories__slide-txt">тюнинг</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="audi">
-								<a href="./audi.html">
-									<div class="stories__slide-pic"><img src="../img/og/audi.png" alt="audi" /></div>
-									<div class="stories__slide-txt">audi</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="авто">
-								<a href="./avto.html">
-									<div class="stories__slide-pic"><img src="../img/og/avto.png" alt="авто" /></div>
-									<div class="stories__slide-txt">авто</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="super car">
-								<a href="./super-car.html">
-									<div class="stories__slide-pic"><img src="../img/og/super-car.png" alt="super car" /></div>
-									<div class="stories__slide-txt">super car</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="id tuning">
-								<a href="./id-tuning.html">
-									<div class="stories__slide-pic"><img src="../img/og/id-tuning.png" alt="id tuning" /></div>
-									<div class="stories__slide-txt">id tuning</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="ауди">
-								<a href="./audi.html">
-									<div class="stories__slide-pic"><img src="../img/og/audi.png" alt="ауди" /></div>
-									<div class="stories__slide-txt">ауди</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="power">
-								<a href="./power.html">
-									<div class="stories__slide-pic"><img src="../img/og/power.png" alt="power" /></div>
-									<div class="stories__slide-txt">power</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="daniel abt">
-								<a href="./daniel-abt.html">
-									<div class="stories__slide-pic"><img src="../img/og/daniel-abt.png" alt="daniel abt" /></div>
-									<div class="stories__slide-txt">daniel abt</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="way">
-								<a href="./way.html">
-									<div class="stories__slide-pic"><img src="../img/og/way.png" alt="way" /></div>
-									<div class="stories__slide-txt">way</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="race">
-								<a href="./race.html">
-									<div class="stories__slide-pic"><img src="../img/og/race.png" alt="race" /></div>
-									<div class="stories__slide-txt">race</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="speed">
-								<a href="./speed.html">
-									<div class="stories__slide-pic"><img src="../img/og/speed.png" alt="speed" /></div>
-									<div class="stories__slide-txt">speed</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="avto">
-								<a href="./avto.html">
-									<div class="stories__slide-pic"><img src="../img/og/avto.png" alt="avto" /></div>
-									<div class="stories__slide-txt">avto</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="amazing">
-								<a href="./amazing.html">
-									<div class="stories__slide-pic"><img src="../img/og/amazing.png" alt="amazing" /></div>
-									<div class="stories__slide-txt">amazing</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="машина">
-								<a href="./mashina.html">
-									<div class="stories__slide-pic"><img src="../img/og/mashina.png" alt="машина" /></div>
-									<div class="stories__slide-txt">машина</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="all">
-								<a href="./all.html">
-									<div class="stories__slide-pic"><img src="../img/og/all.png" alt="all" /></div>
-									<div class="stories__slide-txt">all</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="the">
-								<a href="./the.html">
-									<div class="stories__slide-pic"><img src="../img/og/the.png" alt="the" /></div>
-									<div class="stories__slide-txt">the</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="abt russia">
-								<a href="./abt-russia.html">
-									<div class="stories__slide-pic"><img src="../img/og/abt-russia.png" alt="abt russia" /></div>
-									<div class="stories__slide-txt">abt russia</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="sale">
-								<a href="./sale.html">
-									<div class="stories__slide-pic"><img src="../img/og/sale.png" alt="sale" /></div>
-									<div class="stories__slide-txt">sale</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="sheels">
-								<a href="./sheels.html">
-									<div class="stories__slide-pic"><img src="../img/og/sheels.png" alt="sheels" /></div>
-									<div class="stories__slide-txt">sheels</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="tuning">
-								<a href="./tuning.html">
-									<div class="stories__slide-pic"><img src="../img/og/tuning.png" alt="tuning" /></div>
-									<div class="stories__slide-txt">tuning</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="moscow">
-								<a href="./moscow.html">
-									<div class="stories__slide-pic"><img src="../img/og/moscow.png" alt="moscow" /></div>
-									<div class="stories__slide-txt">moscow</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="russia">
-								<a href="./russia.html">
-									<div class="stories__slide-pic"><img src="../img/og/russia.png" alt="russia" /></div>
-									<div class="stories__slide-txt">russia</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="спб">
-								<a href="./spb.html">
-									<div class="stories__slide-pic"><img src="../img/og/spb.png" alt="спб" /></div>
-									<div class="stories__slide-txt">спб</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="cars">
-								<a href="./cars.html">
-									<div class="stories__slide-pic"><img src="../img/og/cars.png" alt="cars" /></div>
-									<div class="stories__slide-txt">cars</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="drive2">
-								<a href="./drive2.html">
-									<div class="stories__slide-pic"><img src="../img/og/drive2.png" alt="drive2" /></div>
-									<div class="stories__slide-txt">drive2</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="smotra">
-								<a href="./smotra.html">
-									<div class="stories__slide-pic"><img src="../img/og/smotra.png" alt="smotra" /></div>
-									<div class="stories__slide-txt">smotra</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="смотра">
-								<a href="./smotra.html">
-									<div class="stories__slide-pic"><img src="../img/og/smotra.png" alt="смотра" /></div>
-									<div class="stories__slide-txt">смотра</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="драйв2">
-								<a href="./drayv2.html">
-									<div class="stories__slide-pic"><img src="../img/og/drayv2.png" alt="драйв2" /></div>
-									<div class="stories__slide-txt">драйв2</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
@@ -321,7 +330,7 @@
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-10-08">08 October 2019</time></div>
-										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>229</div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>231</div>
 									</div>
 									<div class="tag__item-txt">
 										<h2>Потрясающий @stealth_a5 уже на дорогах в обвесе ABT 🔥</h2>
@@ -331,7 +340,7 @@
 								</div>
 							</a>
 							<a href="../posts/./abt-rs5-r.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4aff2087776c1a6470c778f30c80ce75/5E1B0F49/t51.2885-15/e35/s1080x1080/69394398_175470326918135_3244677013934262618_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/32e3dba495b82812a0a7c6de59658788/5E429C49/t51.2885-15/e35/s1080x1080/69394398_175470326918135_3244677013934262618_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Russia</div>
@@ -346,7 +355,7 @@
 								</div>
 							</a>
 							<a href="../posts/./doosnastili-audi-rs6-karbonovymi-elementami-xx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b060880c26b78acaa59a35516997fa3c/5E382A60/t51.2885-15/e35/s1080x1080/66063775_152868099228121_9132148421487546691_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c62a5879240538296642968a8bfa7a11/5E5FB760/t51.2885-15/e35/s1080x1080/66063775_152868099228121_9132148421487546691_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -375,7 +384,7 @@
 								</div>
 							</a>
 							<a href="../posts/./na-noven-kuyu-audi-a6-4k-ustanovili-diffuzor-zadnego-bampera-s-nasadkami-xx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/522ea56bcf114f7192429bafc3cb0048/5E1CD241/t51.2885-15/e35/s1080x1080/66064116_150900755989910_8358521841594733420_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/50da5262d71df994bb152e2ab9d0e310/5E445F41/t51.2885-15/e35/s1080x1080/66064116_150900755989910_8358521841594733420_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -390,7 +399,7 @@
 								</div>
 							</a>
 							<a href="../posts/./ustanovili-obves-avt-na-multivan-t6.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2db13f6fd39c645031c0be4fbb9b7dbd/5E1BC238/t51.2885-15/e35/s1080x1080/68948694_347692342804333_5745325362859213577_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/5c6b16646956b3dfb56b0338c7092803/5E434F38/t51.2885-15/e35/s1080x1080/68948694_347692342804333_5745325362859213577_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-08-21">21 August 2019</time></div>
@@ -477,7 +486,7 @@
 								</div>
 							</a>
 							<a href="../posts/./moshchnyy-kon--rvyotsya-na-dorogu-xx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/19d8cec45cd0c1ae6b21af28e2ec61d9/5E38677D/t51.2885-15/e35/67181256_1141784942677274_4316653780503682541_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4dd481e85c22758b98237c08b2ff9336/5E5FF47D/t51.2885-15/e35/67181256_1141784942677274_4316653780503682541_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -536,7 +545,7 @@
 								</div>
 							</a>
 							<a href="../posts/./avt-gr-matt-blackx-r22xx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c70ebee93c016c9e80fd755bd762e7f8/5E1A2079/t51.2885-15/e35/51445166_198133201142724_3731646615546288538_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8c2cb339173af83da9ab6915b7d9d010/5E41AD79/t51.2885-15/e35/51445166_198133201142724_3731646615546288538_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -776,7 +785,7 @@
 								</div>
 							</a>
 							<a href="../posts/./kolyosa-yavlyayutsya-ne-tol-ko-vazhnoy-sostavlyayushchey-khodovoy-chasti-transportnogo-sredstvax-no-i-elementom-d.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/242605b95b6d556c26b70fbc883d2788/5E1B266E/t51.2885-15/e35/49348085_216159735971510_3193444117079613638_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2be9a2f515bc2adbfbfb33b38e22825c/5E42B36E/t51.2885-15/e35/49348085_216159735971510_3193444117079613638_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -821,7 +830,7 @@
 								</div>
 							</a>
 							<a href="../posts/./audi-abt-rs5-rxxxxxx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/595a4807dbc2076f81d5c7ac360bc37e/5E1B8CD1/t51.2885-15/e35/60333413_265782414238244_2942158785525722311_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9436219415a9dd727c42486bf28f7b45/5E4319D1/t51.2885-15/e35/60333413_265782414238244_2942158785525722311_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Russia</div>
@@ -866,7 +875,7 @@
 								</div>
 							</a>
 							<a href="../posts/./vas-uzhe-1x000xx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ec5f78471e48b62689e7c7d0d0094a7b/5E37A419/t51.2885-15/e35/58408962_139680130496095_4438142848873562720_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/835166f6a1c29be809d7ed7be3656ddc/5E5F3119/t51.2885-15/e35/58408962_139680130496095_4438142848873562720_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Москва Россия</div>
@@ -881,7 +890,7 @@
 								</div>
 							</a>
 							<a href="../posts/./nesravnennaya-abt-rs6xx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d59ff36d59eb538367c74ceb7b902e80/5E398599/t51.2885-15/e35/57232468_2172787182758602_9088454319987695191_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/267227117c90d4411afe0bd211632b7a/5E611299/t51.2885-15/e35/57232468_2172787182758602_9088454319987695191_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -926,7 +935,7 @@
 								</div>
 							</a>
 							<a href="../posts/./predstavlyaem-vam-novuyu-abt-a6.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a9de0c1c0ad949653012d4fd7d9e3434/5E1C4808/t51.2885-15/e35/51717680_122475762212730_7012253977330573557_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6cf5fdc20537f39c39543b8c6a56f21b/5E43D508/t51.2885-15/e35/51717680_122475762212730_7012253977330573557_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -971,7 +980,7 @@
 								</div>
 							</a>
 							<a href="../posts/./abt-audi-r8-xx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f352366cbf4000b5f51aa14fc7ee8326/5E375821/t51.2885-15/e35/49610497_563270240838270_3676297684676731700_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/3fedc2332de6ff9b4f64eca958fdf425/5E5EE521/t51.2885-15/e35/49610497_563270240838270_3676297684676731700_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1031,7 +1040,7 @@
 								</div>
 							</a>
 							<a href="../posts/./vw-multivan-t6-odeli-v-polnyy-obves-abt-sportsline.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/fa0ba4bcf04f8f09a48c0402d08eab7f/5E3792EE/t51.2885-15/e35/46848676_1756667314460981_3484797022711307106_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/1619483b6932deb6676513b7eaad2113/5E5F1FEE/t51.2885-15/e35/46848676_1756667314460981_3484797022711307106_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1241,7 +1250,7 @@
 								</div>
 							</a>
 							<a href="../posts/./v-rabotu-vstala-audi-a5-sportback-na-ustanovku-nakladki-na-peredniy-bamper-i-diffuzora-zadnego-bampe.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ecabd839a3593ff5092e733c6f8833f9/5E394C02/t51.2885-15/e35/51325209_392900274602650_5569622926848534972_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/5de064db375eeff0287766b34748e04b/5E60D902/t51.2885-15/e35/51325209_392900274602650_5569622926848534972_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1286,7 +1295,7 @@
 								</div>
 							</a>
 							<a href="../posts/./novyy-audi-rs4x.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b8aa47a7ce3e1ed3aa9aa6d03f0c0059/5E1C1CFB/t51.2885-15/e35/50533026_2199489996780063_415998941360719398_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/84587be94da0e2e895b371c7c0995b0a/5E43A9FB/t51.2885-15/e35/50533026_2199489996780063_415998941360719398_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1315,7 +1324,7 @@
 								</div>
 							</a>
 							<a href="../posts/./ustanovlen-aerodinamicheskiy-obves-abt-dlya-audi-q7-xx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/0fcadcdc6238cba91f675e337cf77ecd/5E378CA2/t51.2885-15/e35/46659738_449430272260917_754221496001413393_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/63e6655cd38eaa6993e592d971edd87c/5E5F19A2/t51.2885-15/e35/46659738_449430272260917_754221496001413393_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1375,7 +1384,7 @@
 								</div>
 							</a>
 							<a href="../posts/./dorogie-druz-yax-kompaniya-abt-sportsline-rossiya-zhelaet-vam-khoroshikh-vykhodnykh-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/5f30808d492336f6ba729a50384d2887/5E1D3A11/t51.2885-15/e35/44858267_767930156881387_691336290477401052_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/75b0993a123b3d5a4c7bc7871e59ab96/5E44C711/t51.2885-15/e35/44858267_767930156881387_691336290477401052_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1435,7 +1444,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxxxxx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f2e64540d4b2a2b3f2cd2d5d99f1bbf0/5E1C7E31/t51.2885-15/e35/p1080x1080/65099697_163387084704299_1908378576607871774_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/17fb0b89eb39fc09e272502aa3fd0f96/5E440B31/t51.2885-15/e35/p1080x1080/65099697_163387084704299_1908378576607871774_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1450,7 +1459,7 @@
 								</div>
 							</a>
 							<a href="../posts/./audi-abt-rs6x.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8a9612f0931228a5af01e919cb9ce3db/5E1C55F9/t51.2885-15/e35/s1080x1080/61930952_872925583040883_8757715647083108050_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/83501dbbf780e5be1b756171d637c6c8/5E43E2F9/t51.2885-15/e35/s1080x1080/61930952_872925583040883_8757715647083108050_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1465,7 +1474,7 @@
 								</div>
 							</a>
 							<a href="../posts/./audi-abt-rs5-r.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c18fc7fd946e71a5857f7aab81d6e649/5E19E4ED/t51.2885-15/e35/s1080x1080/62265503_339520446738299_8396993418148368181_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/32221660eb6dce97a60ba01d20fba780/5E4171ED/t51.2885-15/e35/s1080x1080/62265503_339520446738299_8396993418148368181_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1480,7 +1489,7 @@
 								</div>
 							</a>
 							<a href="../posts/./ostalos--zhdat--sovsem-nemnogo.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/919d68001aa1d262759a7c132ff7755f/5E38F6A5/t51.2885-15/e35/s1080x1080/60703321_378670896096110_1119778165757718518_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/5722992e6a5d650dc9d84e0625be98a2/5E6083A5/t51.2885-15/e35/s1080x1080/60703321_378670896096110_1119778165757718518_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Russia</div>
@@ -1495,7 +1504,7 @@
 								</div>
 							</a>
 							<a href="../posts/./may-the-4th-be-with-you-x.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/397dd33331be86cbc733ebdff0c66097/5DA52B3B/t51.2885-15/e35/57403938_437816546973828_2425134263552161690_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b4a2d3bee711f440fe6898294ef25d99/5DA91FBB/t51.2885-15/e35/57403938_437816546973828_2425134263552161690_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Москва</div>
@@ -1570,7 +1579,7 @@
 								</div>
 							</a>
 							<a href="../posts/./gratsioznost--i-velichie-sobralos--v-audi-abt-a5.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/951a759b127de5513381fbe8cfb18d0d/5E3A1736/t51.2885-15/e35/57308787_2301373190125473_8926607832396405462_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6f0cdc7188eaf0f2f4a2370426e1f87d/5E61A436/t51.2885-15/e35/57308787_2301373190125473_8926607832396405462_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow</div>
@@ -1615,7 +1624,7 @@
 								</div>
 							</a>
 							<a href="../posts/./audi-abt-sq5-1.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a8f2802b10c0a9f05449c17f7fc664ae/5DA5A7A0/t51.2885-15/e15/54511985_182962689350483_1898093697211869632_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c0e501856afdab3a159192d517d81720/5DA99C20/t51.2885-15/e15/54511985_182962689350483_1898093697211869632_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1630,7 +1639,7 @@
 								</div>
 							</a>
 							<a href="../posts/./xxxxxx-1.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d2984e143b6373a45bc7415517f1aad0/5E1CF665/t51.2885-15/e35/52663281_773233873045150_6002087993813788976_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2a216d5ad8c05798334fc2116b86c082/5E448365/t51.2885-15/e35/52663281_773233873045150_6002087993813788976_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=110" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1660,7 +1669,7 @@
 								</div>
 							</a>
 							<a href="../posts/./audi-abt-sq7-sledit-za-toboy-xx.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8ffc138cc7495072c63fd84d4c7dbe7e/5E1CC299/t51.2885-15/e35/52504210_413510699410857_3422926646833449492_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ea789fdad4e01281bd71a81d3e417743/5E444F99/t51.2885-15/e35/52504210_413510699410857_3422926646833449492_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1690,7 +1699,7 @@
 								</div>
 							</a>
 							<a href="../posts/./dorogie-druz-ya-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/21836000fdd62e4b745cb52e49ca94ce/5E1A3115/t51.2885-15/e35/51869185_411334446103561_3137334663392063360_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c94ec159216b53b88c1c50bcdb38468a/5E41BE15/t51.2885-15/e35/51869185_411334446103561_3137334663392063360_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1705,7 +1714,7 @@
 								</div>
 							</a>
 							<a href="../posts/./bud-te-gotovy-k-eksklyuzivnoy-prem-ere-novogo-abt-q8.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2ff8851fc3143ec413beccfebc34864f/5E3837D6/t51.2885-15/e35/52333482_328075941158583_5384387251632636032_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2f0bf52328a70d2b3cc0d695f0b1a5aa/5E5FC4D6/t51.2885-15/e35/52333482_328075941158583_5384387251632636032_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1865,11 +1874,12 @@
 			</div>
 		</div>			
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->
